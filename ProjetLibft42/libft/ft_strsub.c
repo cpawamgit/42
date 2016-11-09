@@ -11,10 +11,11 @@
 /* ************************************************************************** */
 
 #include <string.h>
+#include "libft.h"
 
 char *ft_strsub(const char *s, unsigned int start, size_t len)
 {
-	int i;
+	unsigned int i;
 	char *cutstr;
 
 	i = 0;
