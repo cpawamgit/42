@@ -24,7 +24,7 @@ char	*ft_srtrim(const char *s)
 {
 	int i;
 	int j;
-	int k;
+	size_t k;
 	char *trimstr;
 
 	k = 0;

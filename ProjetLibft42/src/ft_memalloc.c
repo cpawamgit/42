@@ -21,7 +21,7 @@ void	*ft_memalloc(size_t size)
 	buff = (void *)malloc(sizeof(void*) * size);
 	if (buff)
 	{
-	ft_bzero(buff);
+	ft_bzero(buff, size);
 	return (buff);
 	}
 	else

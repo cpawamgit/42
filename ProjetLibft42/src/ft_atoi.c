@@ -32,7 +32,7 @@ int 	ft_atoi(char *str)
 	result = 0;
 	while(ft_isspace(str[i]))
 		i++;
-	if (!(ft_is_number) && !(ft_is_plus_less))
+	if (!(ft_is_number(str[i])) && !(ft_is_plus_less(str[i])))
 		return (0);
 	if (ft_is_plus_less(str[i]) == 1)
 	{
